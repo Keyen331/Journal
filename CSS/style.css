@@ -1,5 +1,4 @@
 html {
-  height: 100%;
   background-color: skyblue;
 }
 
@@ -8,38 +7,28 @@ header {
   text-align: center;
 }
 
+.line-separator {
+  height: 2px;
+  background: black;
+}
+
 .aside {
-  border-style: hidden;
+  border-style: solid;
   margin: 10px 10px;
-  background-color: pink;
-  width: 200px;
-  border-bottom: 1px;
-  height: 130px;
+  width: 20%;
+  height: 100%;
   float: left;
 }
 
 .content {
-  border: 10px 15px;
-  border-style: hidden;
-  background-color: pink;
-  text-align: left;
-  width: 1150px;
-  float: right;
-  margin-bottom: 20px;
+  height: 100%;
+  width: 100%;
 }
 
 .article {
   border: solid;
   margin: 10px;
   padding: 10px;
+  width: 73%;
+  float: right;
 }
-
-footer {
-  text-align: center;
-}
-/*.content {
-  border-style: hidden;
-  background-color: pink;
-  margin: 10px 10px;
-}*/
-
